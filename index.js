@@ -17,7 +17,7 @@ app.get('/productos',(req,res) => {
 })
 
 app.use((req,res) => {
-    res.status(404).send('No se encontro tu pagina......!!!!')
+    res.status(404).send('Bienvenidos a la pagina')
 })
 
 app.listen(5000)
